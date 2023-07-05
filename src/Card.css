@@ -1,0 +1,19 @@
+
+.card{
+    height: 250px;
+    width: 200px;
+    background-color:black;
+    margin: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+  }
+  .card:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color: white;
+    color: black;
+  }
